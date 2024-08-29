@@ -1,0 +1,17 @@
+{
+  "name": "opensearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "createIndex": "node src/CreateIndex.js",
+    "IngestDocuments": "node src/IngestDocuments.js",
+    "FullTextSearch": "node src/FullTextSearch.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opensearch-project/opensearch": "^3.0.0-beta.5",
+    "mysql2": "^3.11.0"
+  }
+}
